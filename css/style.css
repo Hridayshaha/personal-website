@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e3e3e;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  line-height: 93.75px;
+  color: #363958;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 1440px;
+  margin: 0 auto;
+}
+header {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  padding-right: 37px;
+}
+nav ul li a {
+  color: #3c3c3ce1;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+nav ul li a:hover {
+  color: #303030;
+}
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.content {
+  flex-basis: 40%;
+  max-width: 40%;
+}
+.content h1 {
+  text-transform: uppercase;
+}
+.content p {
+  color: #3e3e3e;
+  padding-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 40px;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: background-image 0.5s linear;
+  -webkit-transition: background-image 0.5s linear;
+  -moz-transition: background-image 0.5s linear;
+  -ms-transition: background-image 0.5s linear;
+  -o-transition: background-image 0.5s linear;
+}
+.btn:hover {
+  background-image: linear-gradient(-45deg, lightSalmon, tomato);
+}
+.content a.btn span {
+  display: inline-block;
+}
+.content a.btn span img {
+  width: 25px;
+  margin-right: 10px;
+  margin-bottom: -7px;
+}
+.brand-image {
+  flex-basis: 40%;
+  max-width: 40%;
+}
+.brand-image img {
+  width: 95%;
+}
+.orange-heading {
+  color: #ff8367;
+  padding-bottom: 20px;
+}
+.bg {
+  background-color: #f8f9fc;
+}
+.work {
+  padding: 80px 0;
+}
+.work h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+.work .portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio {
+  flex-basis: 29%;
+  max-width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+}
+.portfolio h2 {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #363958;
+}
+.portfolio p {
+  font-size: 16px;
+  color: #6c6c6c;
+}
+.portfolio img {
+  width: 100%;
+}
+.chat {
+  padding: 50px 0;
+}
+.chat-bg {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  height: 180px;
+  background-image: url(../images/shapes/chat.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.left {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+.left h1 {
+  padding-left: 100px;
+  font-size: 64px;
+  color: #fff;
+}
+.right {
+}
+footer {
+  padding: 50px 0;
+}
+footer h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #696871;
+  text-align: center;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+footer h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  color: #363958;
+  text-transform: lowercase;
+  text-align: center;
+  line-height: 42.19px;
+}
+footer .social {
+  padding-top: 20px;
+}
+footer .social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .social ul li {
+  width: 60px;
+}
+footer .social ul li a {
+}
+footer .social ul li a img {
+  width: 70%;
+}
